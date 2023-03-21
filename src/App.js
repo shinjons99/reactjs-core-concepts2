@@ -11,8 +11,8 @@ function App() {
   // ]
   return (
     <div className="App">
-
-      <Counter></Counter>
+      <ExternalUsers></ExternalUsers>
+      {/* <Counter></Counter> */}
     {/* {
       products.map(product=><Product name={product.name} price={product.price}></Product>)
     } */}
@@ -21,6 +21,14 @@ function App() {
       <Product name="Watch" price="7000"></Product> */}
     </div>
   );
+}
+
+function ExternalUsers(){
+  return(
+    <div>
+      <h2>External Users</h2>
+    </div>
+  )
 }
 
 function Product(props){
